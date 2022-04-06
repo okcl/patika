@@ -1,1 +1,1 @@
-# Patika eğitim projeleri
+# Patika eğitim ödevleri
