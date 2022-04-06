@@ -1,0 +1,13 @@
+# # [22,27,16,2,18,6] -> Insertion Sort
+
+1. [22,27,16,2,18,6]
+2. [2,27,16,22,18,6]
+3. [2,6,16,22,18,27]
+4. [2,6,16,18,22,27]
+
+BIG-O notasyonu :
+> Best Case = O(n)
+> Worst Case = O(2^n)
+> Average Case = O(2^n)
+
+Dizi sıralandıktan sonra 18, average case kapsamına girer.
