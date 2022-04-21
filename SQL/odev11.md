@@ -45,7 +45,7 @@ EXCEPT
     SELECT  first_name
     FROM actor
 )
-UNION ALL
+EXCEPT ALL
 (
     SELECT first_name
     FROM customer
