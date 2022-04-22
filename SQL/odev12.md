@@ -37,9 +37,9 @@ AND replacement_cost = (
 4. payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
 ```sql
-SELECT first_name, last_surname, COUNT(payment_id) AS total_payment
+SELECT payment.customer_id, first_name, last_name, COUNT(payment_id) AS total_payment
 FROM payment INNER JOIN customer
 ON payment.customer_id = customer.customer_id
-GROUP BY customer_id
+GROUP BY payment.customer_id
 ORDER BY total_payment DESC;
 ```
